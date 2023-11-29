@@ -1,4 +1,3 @@
-
 public class Book {
 
     private String name;
@@ -15,14 +14,4 @@ public class Book {
     public boolean isWordInText(String word){
         return text.contains(word);
     }
-
-    class BadBook {
-    //...
-
-    void printTextToConsole(){
-        // our code for formatting and printing the text
-        System.out.println(author);
-    }
 }
-}
- 
