@@ -72,3 +72,31 @@ elif num == 0:
    print("Zero")
 else:
    print("Negative number")
+   >>> print_pattern(5, "A")
+AAAAA
+AAAA
+AAA
+AA
+A
+
+>>> print_pattern(8, "%")
+%%%%%%%%
+%%%%%%%
+%%%%%%
+%%%%%
+%%%%
+%%%
+%%
+%
+
+>>> print_pattern(10, "#")
+##########
+#########
+########
+#######
+######
+#####
+####
+###
+##
+#
